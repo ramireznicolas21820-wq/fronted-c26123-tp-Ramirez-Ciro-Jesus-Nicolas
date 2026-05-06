@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Formulario de Contacto</title>
+  </head>
+  <body class="contacto">
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="../index.html"><img src="../img/logo.jpg" alt="logo de página" class="logo" />
+          </li></a>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./contacto.html">contacto</a></li>
+          <li><a href="./listas.html">Listas</a></li>
+          <li><a href="./enlaces.html">Enlaces</a></li>
+        </ul>
+      </nav>
+      <h1>Completar Datos e Informar el Problema</h1>
+    </header>
+
+    <main>
+      <form action="https://formspree.io/f/xykbwqlb" method="post">
+        <label for="nombre">Nombre:</label>
+        <input class="input" type="text" id="nombre" name="nombre" />
+
+        <label for="email">Correo:</label>
+        <input class="input" type="email" id="email" name="email" />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea class="input" id="mensaje" name="mensaje"></textarea>
+
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>Formulario para contactarse por cualquier problema.</footer>
+  </body>
+</html>
