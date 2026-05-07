@@ -255,6 +255,10 @@ footer {
   background-image: none;
   background-color: dimgray;
 }
+.contacto main {
+  display: flex;
+  justify-content: center;
+}
 
 /* 🔹 Formulario */
 form {
