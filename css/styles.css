@@ -199,7 +199,7 @@ main p {
 }
 
 .nav-list a:hover {
-  color: blue;
+  color: rgb(7, 7, 7);
 }
 
 .logo {
@@ -308,5 +308,8 @@ form {
   .nav-list {
     flex-direction: column;
     gap: 1rem;
+  }
+  .contacto main {
+    flex: 0;
   }
 }
